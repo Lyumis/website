@@ -1,0 +1,124 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* настройки для шапки сайта */
+
+
+header {
+    display: flex;
+    background-color: rgb(241, 111, 51);
+    height: 128px;
+    align-items: center;
+    justify-content: center;
+
+}
+header>div {
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 97px;
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    height: 96px;
+    object-fit: contain;
+    
+}
+header a{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FCF8F3;
+}
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 980px ;
+    height: 24px;
+}
+
+/* настройки для подвала сайта */
+
+footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8FC150;
+    height: 458px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer>div{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 360px;
+    justify-content: space-between;
+}
+
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.foot-nav{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.signature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60;
+}
+footer a{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FCF8F3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+footer h5{
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FCF8F3;
+
+}
+
+footer p{
+    font-size: 20px;
+    color: #FCF8F3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#headline {
+    margin: 0px;
+}
+#contacts{
+    width: 240px;
+}
+.partner{
+    height: 50px;
+    width: 50px;
+    object-fit: contain; 
+}
+
+#big {
+    width: 100px;
+    
+}

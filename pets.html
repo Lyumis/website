@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши питомцы</title>
+
+    <!-- подключить шрифт из гугла -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/normalize.css">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/head-foot.css">
+
+
+    
+    <link rel="stylesheet" href="src/css/pagination.css">
+
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="src/img/company-content/logo-bright.png" alt="Логотип" class="logo"></a>
+            <nav class="head-nav">
+                <a href="index.html">Главная</a>
+                <a href="pets.html">Питомцы</a>
+                <a href="#">В хорошие руки</a>
+                <a href="#">События</a>
+                <a href="helpwork.html">Помощь</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <a href=""></a> -->
+
+    <main>
+        <section class="flex-section-row">
+            <div class="start-text-block">
+                <div class="headline">
+                    <h2>Взять питомца</h2>
+                    <h2 id="end-text">- это серьезно!</h2>
+                </div>
+
+                <p>Животные из приюта могут быть другими, чем те, кто вырос дома. Вам может понадобиться больше времени
+                    и усилий, чтобы питомец привык к новому дому.</p>
+
+                <div class="quote">
+                    <p>«Мы в ответе за тех, кого приручили»</p>
+                    <p>Антуана де Сент-Экзюпери</p>
+                </div>
+            </div>
+            <div>
+                <img id="pets-img" src="src/img/company-content/img-main-content-7.jpeg"
+                    alt="Картинка собаки за клеткой">
+            </div>
+        </section>
+
+        <section class="flex-section-column" id="end-section">
+
+            <div class="head-block">
+                <h2 id="start-page">Наши питомцы</h2>
+            </div>
+
+            <div class="pet-card-container">
+
+
+                <div id="pets">
+                </div>
+
+                <div id="navigation">
+                    <button class="btn-pets" id="prev" type="button" onclick="prevPage()">
+                        Пред.Страница
+                        <!-- <svg class="arrow-left" width="20" height="39" viewBox="0 0 20 39" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.2611 39C18.7031 39 19.1451 38.8425 19.494 38.5051C20.1687 37.8528 20.1687 36.773 19.494 36.1207L4.32684 21.4542C3.21024 20.3745 3.21024 18.6199 4.32684 17.5402L19.494 2.87368C20.1687 2.22134 20.1687 1.1416 19.494 0.489257C18.8194 -0.163086 17.7028 -0.163086 17.0282 0.489257L1.86101 15.1557C0.674614 16.303 0 17.8551 0 19.4972C0 21.1393 0.651352 22.6914 1.86101 23.8386L17.0282 38.5051C17.3771 38.82 17.8191 39 18.2611 39Z"
+                                fill="#3D2D16" />
+                        </svg> -->
+                    </button>
+                    <div id="page-counter"></div>
+                    <button class="btn-pets" id="next" type="button" onclick="nextPage()">
+                        След.Страница
+                        <!-- <svg width="20" height="39" viewBox="0 0 20 39" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.73888 39C1.29689 39 0.8549 38.8425 0.505961 38.5051C-0.168654 37.8528 -0.168654 36.773 0.505961 36.1207L15.6732 21.4542C16.7898 20.3745 16.7898 18.6199 15.6732 17.5402L0.505961 2.87368C-0.168654 2.22134 -0.168654 1.1416 0.505961 0.489257C1.18058 -0.163086 2.29718 -0.163086 2.97179 0.489257L18.139 15.1557C19.3254 16.303 20 17.8551 20 19.4972C20 21.1393 19.3486 22.6914 18.139 23.8386L2.97179 38.5051C2.62285 38.82 2.18087 39 1.73888 39Z"
+                                fill="#3D2D16" />
+                        </svg> -->
+                    </button>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <img src="src/img/company-content/logo-brown.png" alt="Логотип" class="logo">
+            </div>
+            <div class="foot-container">
+                <nav class="foot-nav">
+                    <h5>Соцсети</h5>
+                    <a href="#">Вконтакте</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">YouTube</a>
+                </nav>
+                <nav class="foot-nav">
+                    <h5>Навигация</h5>
+                    <a href="index.html">Главная</a>
+                    <a href="pets.html">Питомцы</a>
+                    <a href="#">В хорошие руки</a>
+                    <a href="#">События</a>
+                    <a href="helpwork.html">Помощь</a>
+                </nav>
+                <nav class="foot-nav">
+                    <h5>Спонсоры</h5>
+                    <a href="#"><img class="partner" id="big" src="src/img/company-content/partner-1.jpg"
+                            alt="Партнер1"></a>
+                    <a href="#"><img class="partner" src="src/img/company-content/partner-2.png" alt="Партнер2"></a>
+                    <a href="#"><img class="partner" src="src/img/company-content/partner-3.png" alt="Партнер3"></a>
+                </nav>
+                <nav class="foot-nav" id="contacts">
+                    <a href="contacts.html" id="headline">
+                        <h5>Контакты</h5>
+                    </a>
+                    <p>Санкт-Петербург, Хорошая ул., д. 24 к. 1</p>
+                    <p>8 800 123 4 567</p>
+                    <p>littlehomeforpet@email.com</p>
+                    <p>Будние: 10:00 - 20:00
+                        Выходные: 10:00 - 18:00</p>
+                </nav>
+            </div>
+        </div>
+        <div class="signature">
+            <p>&#169; Маленький дом 2021-2024</p>
+            <p>Дизайн сайта - Морозова Анна</p>
+        </div>
+    </footer>
+    <script src="scripts/pagination.js"></script>
+</body>
+</html>

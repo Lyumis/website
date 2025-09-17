@@ -1,0 +1,414 @@
+.montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Футер и шапка настройки стиля в head-foot.css */
+body {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    color: #3D2D16;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 46px;
+    margin: 0 0 0 0;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h4 {
+    font-size: 26px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+#little-icon {
+    width: 35px;
+    object-fit: contain;
+}
+
+section {
+    width: 1300px;
+    margin: 120px 0 0 0;
+}
+
+.flex-section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-section-column {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.start-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 530px;
+
+    margin: 0 0 0 0;
+}
+
+.headline {
+    margin: 0 0 60px 0;
+}
+
+
+.quote {
+    margin: 40px 0 0 0;
+    font-size: 20px;
+    text-align: end;
+    font-style: italic;
+}
+
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.head-block {
+    margin: 0 0 100px 0;
+
+}
+
+#end-section {
+    margin: 120px 0 140px 0;
+}
+
+
+/* главная страница */
+
+/* слайдер */
+
+#galleria {
+    width:600px;
+    height:400px;
+    margin:20px auto 0 auto;
+    
+}
+
+#galleria img {
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+/* конец слайдера */
+
+#head-p {
+    margin: 40px 0 0 0;
+    font-size: 32px;
+}
+
+#banner-horz {
+    width: 1300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#banner-vert {
+    width: 540px;
+    height: 860px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.achiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 0 0;
+}
+
+.achiv-block img {
+    width: 95px;
+    height: 95px;
+}
+
+.achiv-block span {
+    margin: 0 0 0 20px;
+    font-size: 48px;
+}
+
+.achiv-block p {
+    margin: 35px 0 0 0;
+    text-align: center;
+}
+
+.achiv-block>div {
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.info-container {
+    height: 420px;
+    width: 325px;
+    background-color: #FDFAE7;
+    border-radius: 25px;
+}
+
+.info-container h4 {
+    margin: 40px 20px 40px 22px;
+}
+
+.info-container p {
+    margin: 40px 26px 40px 22px;
+    font-size: 22px;
+
+}
+
+/* страница питомцы */
+
+#end-text {
+    text-align: end;
+}
+
+#pets-img {
+    width: 640px;
+    height: 514px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+.btn-pets {
+    outline: none;
+    border-radius: 20px;
+    padding: 15px 25px 15px 25px;
+    background-color: #FCE2A9;
+    border: none;
+    color: #F16F33;
+	font-weight: 600;
+    font-size: 20px;
+}
+.btn-pets:hover {
+    background-color: #FDEBC4;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+.btn-pets:active {
+    background-color: #FEF2D8;
+    transition: ease-in 0.2s;
+}
+
+.btn-pets:disabled {
+    visibility: hidden;
+}
+
+/* настройки страниц (пагинации) находится в pagination.css и pagination.js */
+
+
+
+
+/* настройки страницы помощь приюту */
+
+.grid-main-container {
+    display: grid;
+    height: auto;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1300px auto;
+}
+
+#grid-section {
+    margin: 0 0 140px 0;
+}
+
+
+.grid-content-container {
+    display: grid;
+    height: auto;
+    gap: 20px;
+
+    grid-template-areas:
+        "A A A A"
+        "B B B B"
+        "C C D D"
+        "E E E E"
+        "F F F F";
+
+}
+
+.content-item-1 {
+    grid-area: A;
+}
+
+.content-item-2 {
+    grid-area: B;
+}
+
+.content-item-3 {
+    grid-area: C;
+}
+
+.content-item-4 {
+    grid-area: D;
+}
+
+.content-item-5 {
+    grid-area: E;
+}
+
+.content-item-6 {
+    grid-area: F;
+}
+
+
+.grid-content-container .head-block {
+    margin: 120px 0 80px 0;
+}
+
+
+
+.grid-content-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.grid-content-container .description-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    color: #F16F33;
+    padding: 40px 0 0 40px;
+    justify-content: end;
+
+
+}
+
+.text-between {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 40px;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    color: #F16F33;
+    justify-content: space-between;
+}
+
+.text-between p {
+    width: 400px;
+}
+
+
+.grid-content-container a {
+    text-decoration: none;
+    color: #F16F33;
+}
+
+.grid-content-container p {
+    height: 58px;
+    padding: 20px 0 0 0;
+}
+
+.grid-content-container h5 {
+    padding: 20px 0 0 0;
+}
+
+/* настройки к контактам */
+
+.head-sett {
+    background-color: #F16F33;
+}
+
+.foot-sett {
+    background-color: #8FC150;
+}
+
+.foot-sett a{
+    text-decoration: none;
+    color: #FCF8F3;
+    font-size: 20px;
+}
+
+.foot-sett p {
+    font-size: 20px;
+}
+
+.appearance-container {
+    border: 3px solid #F8955E;
+    background-color: #FDFAE7;
+    border-radius: 30px;
+    padding: 2rem 1.5rem 2.5rem 1.5rem;
+}
+
+.appearance-container input{
+    border: 3px solid #F8955E;
+    border-radius: 30px;
+}
+
+.appearance-container textarea{
+    border: 3px solid #F8955E;
+    border-radius: 30px;
+}
+
+.appearance-container button {
+    background-color: #F8955E;
+    border: 0;
+    border-radius: 15px;
+
+}
+
+.appearance-container button:hover{
+    background-color: rgb(251, 177, 137);
+}
+
+.style-font a{
+    font-size: 20px;
+}
+
+.style-font {
+    color: #FCF8F3;
+}
